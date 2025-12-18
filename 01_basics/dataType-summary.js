@@ -18,7 +18,7 @@ console.log(anotherId) */
 const heros = ["shaktiman", "Nagraaj", "Doga"]
 let myObj = {
     name: "vijay",
-    age= 30,
+    age : 30,
 }
 
 const myFunction = function() {
