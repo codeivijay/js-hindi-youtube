@@ -24,3 +24,27 @@ let myObj = {
 const myFunction = function() {
 console.log("hello World")
 }
+
+
+// ************* Memory *********
+
+// Stack (Primitive datatype) one get copy, Heap(Non-Primitive) gets reference of location
+
+let myYoutubename = "thebookishlog"
+let anotherName = myYoutubename
+
+anotherName = "chaiaurcode"
+console.log(myYoutubename)
+console.log(anotherName)
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "userOne@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "vijay@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
