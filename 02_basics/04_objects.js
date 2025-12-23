@@ -61,7 +61,7 @@ console.log(Object.values(tinderUser))
 console.log(Object.values(tinderUser).length)
 console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+console.log(tinderUser.hasOwnProperty('isLoggedIn')); // here isLoggedIn is written within single quote because objects save its properties as strings behind the scene and string are always enclosed within quotes
 
 
 
